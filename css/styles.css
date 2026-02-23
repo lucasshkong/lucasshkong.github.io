@@ -10973,3 +10973,6 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+html {
+  scroll-behavior: smooth;
+}
