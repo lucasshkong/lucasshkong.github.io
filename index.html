@@ -81,12 +81,33 @@
                     <div class="social-icons">
                         <a class="social-icon" href="https://www.linkedin.com/in/lucasshkong/"><i class="fab fa-linkedin-in"></i></a>
                     </div>
-
+                    <!--
                     <div class="school-logo">
                         <img src="https://gradadm.seas.upenn.edu/wp-content/themes/penn-engineering-graduate-admissions/img/PennEngMain.svg" 
                              alt="Penn Engineering Logo" 
                              style="width:100%; max-width:280px; margin-top:60px;">
                     </div>
+                    -->
+                    <div class="school-logo">
+                        <img src="https://gradadm.seas.upenn.edu/wp-content/themes/penn-engineering-graduate-admissions/img/PennEngMain.svg" 
+                             alt="Penn Engineering Logo">
+                    </div>
+                    
+                    <style>
+                    .school-logo img {
+                        width: 100%;
+                        max-width: 280px;
+                        margin-top: 60px;
+                    }
+                    
+                    /* 모바일 (보통 768px 이하) */
+                    @media (max-width: 768px) {
+                        .school-logo img {
+                            max-width: 220px;  /* 여기서 원하는 만큼 줄이면 됨 */
+                            margin-top: 60px;
+                        }
+                    }
+                    </style>
                 </div>
             </section>
             <hr class="m-0" />
