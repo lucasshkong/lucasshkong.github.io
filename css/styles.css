@@ -10976,3 +10976,9 @@ section.resume-section .resume-section-content {
 html {
   scroll-behavior: smooth;
 }
+
+/* Preserve title case for Education entries. */
+#education h3,
+#education .subheading {
+  text-transform: none;
+}
